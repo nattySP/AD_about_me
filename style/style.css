@@ -1,0 +1,44 @@
+#body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.title-font {
+    font-family: 'Shrikhand', cursive;
+}
+
+.accent-color1 {
+    background-color: #8EE6D0;
+}
+
+.accent-color2 {
+    background-color: #D3EED6;
+}
+
+.accent-color3 {
+    background-color: #9F7A9F;
+}
+
+.accent-color4 {
+    background-color: #E5ABC8;
+}
+
+.accent-color5 {
+    background-color: #43D1CB;
+}
+
+
+.accent-outline {
+    border: 2px solid #E5ABC8;
+}
+
+.cover h1 {
+    font-size: 45px;
+}
+
+.cover h2 {
+    font-size: 37px;
+}
+
+.cover h3 {
+    font-size: 25px;
+}
