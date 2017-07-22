@@ -20,17 +20,21 @@ export default class AboutMe extends Component {
                         <li>
                             For the last two years I have been working at a health care startup, building a MEAN stack platform that
                             enables medical providers to report quality metric data on their patient population.
-                            <ul>
-                                favorite parts:
-                                <li>
-                                    building features that improved the user experience and improved the quality of the
-                                    data entered
-                                </li>
-                                <li>
-                                    the platform replaced a painfully inefficient process and made the jobs of the
-                                    personnel who deal with the data much easier
-                                </li>
-                            </ul>
+                            <div className="aside-container">
+                                <div className="accent-color2">
+                                    favorite parts:
+                                </div>
+                                <ul>
+                                    <li>
+                                        building features that improved the user experience and improved the quality of the
+                                        data entered
+                                    </li>
+                                    <li>
+                                        the platform replaced a painfully inefficient process and made the jobs of the
+                                        personnel who deal with the data much easier
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li>
                             I love building cool things and solving challenging problems.
