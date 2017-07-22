@@ -5,9 +5,15 @@ export default class Cover extends Component {
         return (
             <div className="title-font">
                 <div className="accent-outline cover">
-                    <h1 className="accent-color5">Hello,</h1>
-                    <h2 className="accent-color1">I'm Natalie Hall.</h2>
-                    <h3 className="accent-color2">Nice to meet you.</h3>
+                    <div className="accent-color5 heading-container">
+                        <h1 className="title-font">Hello,</h1>
+                    </div>
+                    <div className="accent-color1 heading-container">
+                        <h2 className="title-font">I'm Natalie Hall.</h2>
+                    </div>
+                    <div className="accent-color2 heading-container">
+                        <h3 className="title-font">Nice to meet you.</h3>
+                    </div>
                 </div>
             </div>
         );

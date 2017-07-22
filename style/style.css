@@ -29,6 +29,7 @@
 
 .accent-outline {
     border: 2px solid #E5ABC8;
+    box-shadow: 5px 5px 5px #E5ABC8;
 }
 
 .cover h1 {
@@ -41,4 +42,29 @@
 
 .cover h3 {
     font-size: 25px;
+}
+
+.images {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.images img {
+    width: 250px;
+    border: 2px solid #8EE6D0;
+    box-shadow: 5px 5px 5px #8EE6D0;
+    margin: 10px;
+}
+
+.heading-container {
+    width: 100%;
+    padding: 15px;
+}
+
+.content .heading-container h1, #body .tabs {
+    margin-bottom: 0;
+}
+
+div {
+    padding: 10px;
 }
