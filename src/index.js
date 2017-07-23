@@ -9,6 +9,7 @@ import AboutMe from './components/aboutMe';
 import DrivesMe from './components/drivesMe';
 import Interest from './components/interest';
 import Qualifications from './components/qualifications';
+import Demo from './components/demo';
 import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
@@ -21,11 +22,11 @@ ReactDOM.render(
                     <div className="tabs">
                         <ul className="title-font">
                             <li><Link to="/">Hello</Link></li>
-                            <li><Link to="/me">About Me 1</Link></li>
-                            <li><Link to="/drive">About Me 2</Link></li>
+                            <li><Link to="/me">About Me</Link></li>
+                            <li><Link to="/drive">More About Me</Link></li>
                             <li><Link to="/interest">Interest</Link></li>
                             <li><Link to="/qualifications">Qualifcations</Link></li>
-                            <li><a>Demo</a></li>
+                            <li><Link to="/demo">Demo</Link></li>
                         </ul>
                     </div>
                     <div>
@@ -35,6 +36,7 @@ ReactDOM.render(
                             <Route path="/drive" component={DrivesMe}/>
                             <Route path="/interest" component={Interest}/>
                             <Route path="/qualifications" component={Qualifications}/>
+                            <Route path="/demo" component={Demo}/>
                         </Switch>
                     </div>
                 </div>
