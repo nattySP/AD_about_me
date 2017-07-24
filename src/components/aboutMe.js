@@ -10,14 +10,14 @@ export default class AboutMe extends Component {
                     </div>
                     <ul>
                         <li>
-                            I am a full stack javascript developer with a background in life sciences.
+                            I am a full stack javascript developer with a background in life sciences
                         </li>
                         <li>
-                            I have a BS in Chemistry and in Neuroscience from Duke, and have worked in the biotech industry.
+                            I have a BS in Chemistry and in Neuroscience from Duke, and have worked in the biotech industry
                         </li>
                         <li>
-                            For the last two years I have been working at a health care startup, building a MEAN stack platform that
-                            enables medical providers to report quality metric data on their patient population.
+                            For the last two years I have been building a MEAN (MongoDB, Express, AngularJS, Node) stack platform that
+                            enables medical providers to report quality metric data on their patient population
                             <div className="aside-container">
                                 <div className="accent-color2">
                                     favorite parts:
@@ -30,6 +30,9 @@ export default class AboutMe extends Component {
                                     <li>
                                         the platform replaced a painfully inefficient process and made the jobs of the
                                         personnel who deal with the data much easier
+                                    </li>
+                                    <li>
+                                        JavaScript
                                     </li>
                                 </ul>
                             </div>

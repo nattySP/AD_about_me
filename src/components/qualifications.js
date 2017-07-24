@@ -16,10 +16,10 @@ export default class Qualifications extends Component {
                             Experience building single page applications
                         </li>
                         <li>
-                            Outstanding communication skills
+                            Experience designing features based on business requirement documents
                         </li>
                         <li>
-                            Experience designing features based on business requirement documents
+                            Outstanding communication skills
                         </li>
                         <li>
                             Thrive in collaborative, cross functional environments
